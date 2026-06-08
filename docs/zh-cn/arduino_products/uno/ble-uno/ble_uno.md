@@ -542,6 +542,10 @@ void loop() {
 
 成功后，我们可以看到从机的L灯每一秒闪烁一次。(如果显示不出效果，请主、从机都断下电)
 
+## 使用CodexPad-S10手柄控制外设
+
+演示如何使用CodexPad-S10手柄进行控制直流电机、编码电机、舵机等外设，您可以点此链接查看详细说明：[点击查看详细说明](https://gitee.com/nulllab_1/docs_examples_gamepad_peripheral_control/blob/main/examples_description_ble_uno.zh-CN.md#codexpad-s10手柄控制示例ble-uno开发板示例说明)。
+
 ## 常见问题FAQ
 
 **1) 问：ble-uno和其他普通uno板有何区别，我要如何开始使用这个开发板**
