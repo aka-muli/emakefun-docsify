@@ -47,7 +47,7 @@ Maker-ESP32-Mini是基于乐鑫科技的 <a href="https://documentation.espressi
 * DC头(5.5-2.1mm)输入电压： 3.7-12V
 * 5V接口最大输出电流：3A
 * 电机接口最大输出电流：4A
-* 产品尺寸：70mm×54mm；PCB厚度：1.6mm；净重：35g
+* 产品尺寸：70mm×54mm；PCB厚度：1.6mm；净重：26g
 * 软件支持Mixly、Arduino IDE、Micropython、Mind+
 * 对比MAKER-ESP32，在不需要大电流时，可由3.7V电池包直接供电即可带动系统运行
 
@@ -59,7 +59,7 @@ Maker-ESP32-Mini是基于乐鑫科技的 <a href="https://documentation.espressi
 
 <font color="red" size="5">**注:**</font>  
 
-1. Motor and IO Switch: 当拨码开关打到IO口端时，M3、M4电机端口不工作，不能驱动电机，引脚为普通端口；当拨码开关打到M3A/M3B/M4A/M4B时，M3、M4为电机端口，可以驱动电机。
+1. Motor and IO Switch: 当拨码开关打到IO口端时，M2、M3电机端口不工作，不能驱动电机，引脚为普通端口；当拨码开关打到M3A/M3B/M4A/M4B时，M2、M3为电机端口，可以驱动电机。
 
 2. 因为ESP32芯片特性，在Arduino框架下，主板的34、35、36、39引脚不能作为输出；并且34、35、36、39引脚做为输入时，不能设置上拉或下拉模式。
 
