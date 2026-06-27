@@ -1,6 +1,6 @@
 <!-- docs/_sidebar.md -->
 
-![emakefun](zh-cn/_media/favicon.jpg)
+![emakefun](/zh-cn/_media/favicon.jpg)
 
 - [首页](/zh-cn/homepage.md)
 
@@ -8,6 +8,7 @@
   
   - [软件下载](/zh-cn/software/software_download.zh-CN.md)
   - [ArduinoIDE2.0介绍](/zh-cn/software/arduino_ide/arduino_ide.zh-CN.md)
+  - [BlockCode编程](https://app.blockcode.fun/)
   - [Mixly2.0使用介绍](/zh-cn/software/mixly/mixly.md)
   - [Mind+使用介绍](/zh-cn/software/mind_plus/mindplus.zh-CN.md)
   - [Thonny使用介绍](/zh-cn/software/thonny/thonny.zh-CN.md)
@@ -88,7 +89,7 @@
     - [激光发射模块](/zh-cn/ph2.0_sensors/actuators/laser_emitter/laser_emitter_zh-cn.md)
     - [振动马达](zh-cn/ph2.0_sensors/actuators/vibrationMotorModule/vibrationMotorModule.md)
     - [8002A音频放大器](zh-cn/ph2.0_sensors/actuators/8002a_amp_speaker/8002a_amp_speaker.md)
-    - [舵机扩展](/zh-cn/ph2.0_sensors/actuators/servo_adapter_zh-cn.md)
+    - [舵机扩展](/zh-cn/ph2.0_sensors/actuators/servo_adapter/servo_adapter_zh-cn.md)
     - [MD01单路电机驱动](zh-cn/ph2.0_sensors/actuators/md01/md01_zh-cn.md)
     - [MD02双路电机驱动](zh-cn/ph2.0_sensors/actuators/md02/md02_zh-cn.md)
     - [DM11两路电机驱动模块](/zh-cn/ph2.0_sensors/actuators/dm11/dm11.md)
@@ -108,14 +109,14 @@
     - [交通信号灯](zh-cn/ph2.0_sensors/displayers/trafficlight_module/trafficLights.md)
     - [RGB全彩灯](zh-cn/ph2.0_sensors/displayers/rgb_module/RGB.md)
     - [WS2812B RGB灯环](zh-cn/ph2.0_sensors/displayers/ws2812b/ws2812b_zh-cn.md)
-    - [中文字库0.96OLED](zh-cn/ph2.0_sensors/displayers/GT20L16S1Y_OLED/GT20L16S1Y_OLED.md)
+    - [OLED](/zh-cn/ph2.0_sensors/displayers/oled/oled_zh-cn.md)
     - [SWIFT-LCD-13显示屏模块](zh-cn/ph2.0_sensors/displayers/swift_lcd_13/swift_lcd_13.md)
     - [SWIFT-LCD-20显示屏模块](zh-cn/ph2.0_sensors/displayers/swift_lcd_20/swift_lcd_20.md)
   
   - 智能模块
 
     - [BMP280大气压传感器](zh-cn/ph2.0_sensors/smart_module/atmospheric_pressure_sensor/atmospheric_pressure_sensor.md)
-    - [TCS34725颜色识别](zh-cn/ph2.0_sensors/smart_module/color_recognition/color_recognition.md)
+    - [TCS34725颜色识别](/zh-cn/ph2.0_sensors/smart_module/color_recognition/TCS34725_zh-cn.md)
     - [NLCS11颜色识别](/zh-cn/ph2.0_sensors/smart_module/color_sensor_nlcs11/color_sensor_nlcs11.md)
     - [QMC5883L电子指南针罗盘模块](zh-cn/ph2.0_sensors/smart_module/compass/compass.md)
     - [DS1302时钟模块](zh-cn/ph2.0_sensors/smart_module/ds1302/ds1302_rtc.md)

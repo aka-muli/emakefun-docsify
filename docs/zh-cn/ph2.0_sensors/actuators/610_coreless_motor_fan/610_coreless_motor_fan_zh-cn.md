@@ -1,4 +1,4 @@
-# 空心杯610电机风扇规格书
+# 空心杯610电机风扇
 
 ![610_dc_motor](picture/610_coreless_motor_fan.jpg)
 
@@ -55,4 +55,3 @@ void loop() {
 <a href="https://makecode.microbit.org/_bR98taPuz0rM" target="_blank">动手试一试</a>
 
  通过小电机风扇模块接Microbit的P1引脚，程序上传之后，可以看到小风扇先全速转两秒，然后中速转两秒，最后停下两秒之后在全速转两秒如此循环。
- 
