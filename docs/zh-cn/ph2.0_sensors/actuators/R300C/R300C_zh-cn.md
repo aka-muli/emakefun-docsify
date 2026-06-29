@@ -1,14 +1,14 @@
 # R300C电机风扇模块
 
-![电机风扇](picture/r300c.jpg)
+![电机风扇](./picture/r300c.jpg)
 
 ## 概述
 
-​电机风扇模块是一款基于R300C电机的一款低电压，低电流可控制正反转的模块。搭配2mm轴的螺旋浆，可轻松吹灭20cm处的打火机火焰，可用于救火机器人、手工DIY、益智玩具、模型的制作。
+电机风扇模块是一款基于R300C电机的一款低电压，低电流可控制正反转的模块。搭配2mm轴的螺旋浆，可轻松吹灭20cm处的打火机火焰，可用于救火机器人、手工DIY、益智玩具、模型的制作。
 
 ## 原理图
 
-![picture/r300c_sch.png](picture/r300c_sch.png)
+![picture/r300c_sch.png](./picture/r300c_sch.png)
 
 <a href="zh-cn/ph2.0_sensors/actuators/r300c/r300c_motor_fan.pdf" target="_blank">点击此处查看原理图</a>
 
@@ -72,7 +72,7 @@
 
 ## Arduino Uno示例程序
 
-​风扇驱动原理很简单，INA给高电平，INB给低电平风扇朝一个方向旋转，INB给高电平，INA给低电平，风扇朝反方向旋转。如需要调整旋转速度，那么分别给INA，INB两个引脚给PWM差，就能控制电机旋转速度。
+风扇驱动原理很简单，INA给高电平，INB给低电平风扇朝一个方向旋转，INB给高电平，INA给低电平，风扇朝反方向旋转。如需要调整旋转速度，那么分别给INA，INB两个引脚给PWM差，就能控制电机旋转速度。
 
 ```c
 namespace {

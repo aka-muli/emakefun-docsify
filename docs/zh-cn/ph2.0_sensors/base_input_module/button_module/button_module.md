@@ -25,11 +25,8 @@
 ## 模块参数
 
 - 供电电压：3~5V
-
 - 连接方式：PH2.0-3PIN防反接线
-
 - 模块尺寸：38.4x22.4mm
-
 - 安装方式：M4螺钉兼容乐高插孔固定
 
 | 引脚名称 | 描述                      |
@@ -46,19 +43,16 @@
 
 **接线端口可自行更改，只需注意编程时选择对应引脚，本教程时按照示例程序接口连接。**
 
-![arduino_button_wiring](picture/arduino_button_wiring.png)
+![arduino_button_wiring](./picture/arduino_button_wiring.png)
 
 ### Arduino示例程序
 
 <a href="zh-cn/ph2.0_sensors/base_input_module/button_module/button_module.zip" download>下载示例程序</a>
 
 ```cpp
-namespace {
 constexpr uint8_t kLedOut = 3;
 constexpr uint8_t kKeypadPin = A3;
-
 int8_t g_button_value = 0;
-}  // namespace
 
 void setup() {
   pinMode(kLedOut, OUTPUT);
@@ -97,7 +91,7 @@ LED模块通过3Pin线接在主板P2口（esp32  IO2）；
 
 <a href="zh-cn/ph2.0_sensors/base_input_module/button_module/esp32_micropython.zip" download>示例程序下载</a>
 
-```
+```python
 from machine import Pin
 button = Pin(5, Pin.IN)  # 按键引脚
 led = Pin(2, Pin.OUT)    # LED引脚
